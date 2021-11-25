@@ -7,7 +7,13 @@
 header{
     background-color: blanchedalmond;
     display: flex;
+    justify-content: space-between;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* 重なりの上に表示する */
+    z-index: 1;
 
 }
 
@@ -24,4 +30,9 @@ header img{
 
 .header_list li{
     padding: 0 20px;
+}
+
+main{
+    /* ヘッダー分を下げる */
+    top: 106px;
 }
