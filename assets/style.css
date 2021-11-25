@@ -2,3 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
+
+header{
+    background-color: blanchedalmond;
+    display: flex;
+    position: fixed;
+
+}
+
+header img{
+    height: 100px;
+    width:100px;
+}
+
+.header_list{
+    display: flex;
+    list-style: none;
+
+}
+
+.header_list li{
+    padding: 0 20px;
+}
