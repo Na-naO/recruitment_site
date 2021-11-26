@@ -25,7 +25,11 @@ header img{
 .header_list{
     display: flex;
     list-style: none;
+    padding: 70px 0 0;
+}
 
+a{
+    text-decoration: none;
 }
 
 .header_list li{
