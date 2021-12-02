@@ -48,3 +48,12 @@ main{
     background-size: cover;
     background-repeat: repeat;
 }
+
+.top-pic{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
