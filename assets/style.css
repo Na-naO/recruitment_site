@@ -57,3 +57,23 @@ main{
     align-items: center;
     font-size: 75px;
 }
+
+main{
+    width:100%
+}
+
+.vision{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-left{
+    width: 50%;
+}
+
+.vision-right{
+    /* width: 50%; */
+}
