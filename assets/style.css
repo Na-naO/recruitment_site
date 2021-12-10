@@ -19,7 +19,7 @@ header{
 
 header img{
     height: 100px;
-    width:100px;
+    width: 100px;
 }
 
 .header_list{
@@ -76,4 +76,19 @@ main{
 
 .vision-right{
     /* width: 50%; */
+}
+
+.message h1{
+    text-align: right;
+}
+
+
+.message-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.message img{
+    height: 200px;
 }
