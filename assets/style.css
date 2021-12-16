@@ -92,3 +92,10 @@ main{
 .message img{
     height: 200px;
 }
+
+.interview img{
+    height: 700px;
+    /* インライン要素のimg画像を中央に寄せる */
+    display: block;
+    margin: auto;
+}
