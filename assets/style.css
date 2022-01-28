@@ -79,7 +79,11 @@ main{
 }
 
 .vision-right{
-    /* width: 50%; */
+    width: 50%;
+}
+
+.vision-right h2{
+    background-color: yellow;
 }
 
 .message h1{
@@ -106,6 +110,12 @@ main{
 
 .talk-session{
     background-color: yellow;
+}
+
+.talk-session button{
+    color: white;
+    background-color: black;
+    padding: 0 30px;
 }
 
 .more_info{
