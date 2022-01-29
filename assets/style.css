@@ -112,11 +112,25 @@ main{
     background-color: yellow;
 }
 
+.talk-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .talk-session button{
     color: white;
     background-color: black;
     padding: 0 30px;
+    margin: 100px 0;
 }
+
+.talk-left img{
+    height: 300px;
+}
+
+
+
 
 .more_info{
     display: flex;
@@ -133,7 +147,11 @@ main{
 }
 
 
-
+.more_info button{
+    color: white;
+    background-color: black;
+    padding: 0 30px;
+}
 
 
 
