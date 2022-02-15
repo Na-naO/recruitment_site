@@ -67,7 +67,7 @@ main{
 }
 
 .vision{
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,6 +77,7 @@ main{
 .vision-left{
     width: 50%;
 }
+
 
 .vision-right{
     width: 50%;
@@ -94,7 +95,8 @@ main{
 .message-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .message img{
@@ -136,13 +138,13 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
+    height: 300px;
 }
 
 
 
 .more_info img{
-    width: 30%;    
+    width: 50%;    
     height: auto; 
 }
 
