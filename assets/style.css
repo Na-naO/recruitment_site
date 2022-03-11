@@ -63,10 +63,11 @@ main{
 }
 
 main{
-    width:100%
+    width:100%;
 }
 
 .vision{
+    margin: 0 500px;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -78,6 +79,9 @@ main{
     width: 50%;
 }
 
+.vision-left h1{
+    font-size: 50px;
+}
 
 .vision-right{
     width: 50%;
@@ -85,6 +89,10 @@ main{
 
 .vision-right h2{
     background-color: yellow;
+}
+
+.message{
+    margin: 0 300px;
 }
 
 .message h1{
